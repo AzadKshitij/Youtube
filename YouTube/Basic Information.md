@@ -1,0 +1,7 @@
+## Description
+- "Welcome to the "Bit of Code" YouTube channel! Here, we aim to provide helpful and informative programming tutorials and tips for beginners and experienced developers alike. Our videos cover a wide range of topics, including web development, data science, and game development, using popular languages such as Python, JavaScript, and C++. From coding challengebs to project walkthroughs, we have something for everyone looking to improve their skills and advance in the world of coding. Subscribe now to stay up-to-date on the latest programming trends and techniques."
+- "Hey there! Welcome to the channel "Bit of Code"! We're so glad you found us. We're a group of programmers who are passionate about sharing our knowledge and helping others learn to code. Our channel is all about providing helpful tutorials, tips and tricks for anyone looking to learn or improve their skills in programming. From web development to data science, and game development, we've got you covered. We'll be using popular languages like Python, JavaScript and C++ and we'll be doing coding challenges, project walkthroughs, and much more. So, if you're ready to level up your coding skills and have some fun doing it, hit that subscribe button and let's get started!"
+- Mine:: blazingly fast paced videos about programming and tutorials so you can build and ship your apps faster. Subscribe for new videos every week (mostly) covering beginner to advanced lessons about  programming in general. 
+
+## Chanel Tags
+bit of code, a bit of code, 

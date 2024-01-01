@@ -1,0 +1,12 @@
+{
+  "spellcheck": true,
+  "alwaysUpdateLinks": true,
+  "attachmentFolderPath": "./assets/1. Data collection",
+  "promptDelete": false,
+  "newLinkFormat": "absolute",
+  "showLineNumber": true,
+  "spellcheckLanguages": [
+    "en-US",
+    "en-GB"
+  ]
+}

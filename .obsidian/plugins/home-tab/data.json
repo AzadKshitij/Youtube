@@ -1,0 +1,53 @@
+{
+  "logoType": "default",
+  "logo": {
+    "lucideIcon": "",
+    "imagePath": "",
+    "imageLink": ""
+  },
+  "logoScale": 1.2,
+  "iconColorType": "default",
+  "wordmark": "Obsidian",
+  "customFont": "interfaceFont",
+  "fontSize": "4em",
+  "fontColorType": "default",
+  "fontWeight": 600,
+  "maxResults": 5,
+  "showStarredFiles": false,
+  "showRecentFiles": true,
+  "maxRecentFiles": 5,
+  "storeRecentFile": true,
+  "showPath": true,
+  "selectionHighlight": "default",
+  "showShortcuts": true,
+  "markdownOnly": false,
+  "unresolvedLinks": false,
+  "recentFilesStore": [
+    {
+      "filepath": "YouTube/YouTube Video List.md",
+      "timestamp": 1704130508141
+    },
+    {
+      "filepath": "Daily/2024-01-01.md",
+      "timestamp": 1704130500528
+    },
+    {
+      "filepath": "Blog Kanban Dash Board.md",
+      "timestamp": 1704130418787
+    },
+    {
+      "filepath": "Description.md",
+      "timestamp": 1704130412171
+    },
+    {
+      "filepath": "Flats.md",
+      "timestamp": 1704130398374
+    }
+  ],
+  "starredFileStore": [],
+  "searchDelay": 0,
+  "replaceNewTabs": false,
+  "newTabOnStart": false,
+  "closePreviousSessionTabs": false,
+  "omnisearch": true
+}

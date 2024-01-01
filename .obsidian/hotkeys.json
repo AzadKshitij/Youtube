@@ -1,0 +1,16 @@
+{
+  "workspace:edit-file-title": [
+    {
+      "modifiers": [],
+      "key": "F2"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Downloaded/BoxSelectedElements/Box Selected Elements": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "B"
+    }
+  ]
+}

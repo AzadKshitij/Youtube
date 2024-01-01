@@ -1,0 +1,60 @@
+{
+  "confirmDeletion": true,
+  "showAddCommand": true,
+  "debug": false,
+  "editorMenu": [],
+  "fileMenu": [
+    {
+      "id": "quickadd:choice:c17771ce-87f3-4b86-9093-3c7fed11ec8f",
+      "icon": "video",
+      "name": "Add Youtube Video",
+      "mode": "any"
+    }
+  ],
+  "leftRibbon": [],
+  "rightRibbon": [],
+  "titleBar": [],
+  "statusBar": [],
+  "pageHeader": [
+    {
+      "id": "obsidian-excalidraw-plugin:excalidraw-autocreate-and-embed-popout",
+      "icon": "image-plus",
+      "name": "Embed Excalidraw Drawing",
+      "mode": "any",
+      "color": "#0040d6"
+    },
+    {
+      "id": "quickadd:choice:c17771ce-87f3-4b86-9093-3c7fed11ec8f",
+      "icon": "video",
+      "name": "Add YouTube video",
+      "mode": "any",
+      "color": "#f41515"
+    }
+  ],
+  "macros": [],
+  "explorer": [],
+  "hide": {
+    "statusbar": [],
+    "leftRibbon": [
+      "Omnisearch",
+      "Templater",
+      "Start/stop recording",
+      "Open quick switcher",
+      "Open graph view",
+      "Insert template",
+      "Open command palette",
+      "Open format converter"
+    ]
+  },
+  "spacing": 8,
+  "advancedToolbar": {
+    "rowHeight": 48,
+    "rowCount": 1,
+    "spacing": 0,
+    "buttonWidth": 48,
+    "columnLayout": false,
+    "mappedIcons": [],
+    "tooltips": false,
+    "heightOffset": 0
+  }
+}

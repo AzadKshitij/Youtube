@@ -1,0 +1,983 @@
+{
+  "version": 2,
+  "projects": [
+    {
+      "fieldConfig": {
+        "tags": {},
+        "date": {
+          "options": []
+        },
+        "published": {},
+        "Status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        },
+        "youtube": {
+          "richText": true
+        },
+        "status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YouTube/Shorts",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "61dcd67c-044a-40c3-8509-5275c513e8e4",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 158
+              },
+              "Status": {
+                "width": 119
+              },
+              "name": {
+                "width": 292
+              },
+              "cover": {
+                "hide": true
+              },
+              "youtube": {
+                "width": 381
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1f4510f4-bedf-4e43-a77a-bc600553a060",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "a1650b04-582d-4ebc-8ef9-06849f7ef5e1",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "priorityField": "date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "b6eae1bc-8600-494b-b2bd-1581e879f038",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "name": "Youtube_Shorts",
+      "id": "2d198081-a2c1-4ad0-9bac-c117a936e126"
+    },
+    {
+      "fieldConfig": {
+        "status": {
+          "options": [
+            "Idea",
+            "Doing",
+            "Done"
+          ]
+        },
+        "youtube": {
+          "richText": true
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YouTube/2MVideos",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 160
+              },
+              "Status": {
+                "width": 162
+              },
+              "name": {
+                "width": 360
+              },
+              "published": {
+                "width": 175
+              },
+              "status": {
+                "width": 119
+              },
+              "youtube": {
+                "width": 307
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7a24b817-576d-41a8-938a-8d0c8baee179",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "cover",
+            "cardWidth": 300,
+            "includeFields": [
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "15b9340f-5690-4807-bfa6-8d30d23dd536",
+          "name": "Gallery",
+          "type": "gallery"
+        }
+      ],
+      "name": "Youtube_2MVideos",
+      "id": "71c3b3db-d7f7-4849-8095-45daf5e7004d"
+    },
+    {
+      "fieldConfig": {},
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YouTube/100DaysOfProduct",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 146
+              },
+              "Status": {
+                "width": 120
+              },
+              "name": {
+                "width": 346
+              },
+              "date": {
+                "width": 118
+              },
+              "published": {
+                "width": 144
+              },
+              "cover": {
+                "width": 126
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "2aaec1c2-6055-449b-b68a-d125c3a090fb",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 358
+              },
+              "Status": {
+                "width": 162
+              },
+              "name": {
+                "width": 526
+              }
+            }
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "tags",
+                "operator": "is-not-empty"
+              }
+            ]
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "Status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "8c9b12b9-2bdc-4792-a653-c04e9cb7e6ac",
+          "name": "Table Copy",
+          "type": "table"
+        }
+      ],
+      "name": "Youtube_100DayProduct",
+      "id": "3794db55-ba1a-480f-be45-5223f940e5d6"
+    },
+    {
+      "fieldConfig": {
+        "tags": {},
+        "date": {
+          "options": []
+        },
+        "published": {},
+        "youtube": {
+          "richText": true
+        },
+        "status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YouTube/Data Science 101",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 158
+              },
+              "Status": {
+                "width": 119
+              },
+              "name": {
+                "width": 292
+              },
+              "cover": {
+                "hide": true
+              },
+              "youtube": {
+                "width": 280
+              },
+              "status": {
+                "width": 115
+              },
+              "published": {
+                "width": 142
+              },
+              "date": {
+                "width": 112
+              },
+              "title:": {
+                "width": 335
+              },
+              "title": {
+                "width": 331
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "18436ecf-0734-4063-a547-e813d07d6703",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "youtube"
+            ],
+            "cardWidth": 280
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5b162fd7-f9eb-48a9-ab78-7f8d409d660d",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "218e318e-3c8f-4b5c-a04f-3c8469986a1a",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "priorityField": "date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "3cb94844-af39-4567-8b2a-36e50d70d762",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "name": "Youtube_DS101",
+      "id": "ffcec3fc-7809-414e-8bb6-3fd174635757"
+    },
+    {
+      "fieldConfig": {
+        "tags": {},
+        "date": {
+          "options": []
+        },
+        "published": {},
+        "Status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        },
+        "youtube": {
+          "richText": true
+        },
+        "status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "tag",
+        "config": {
+          "tag": "#devlog"
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c6cfc427-3de8-4dda-a028-f4a96f8ef35f",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 158
+              },
+              "Status": {
+                "width": 119
+              },
+              "name": {
+                "width": 219
+              },
+              "cover": {
+                "hide": true
+              },
+              "youtube": {
+                "width": 381
+              },
+              "status": {
+                "width": 116
+              },
+              "published": {
+                "width": 146
+              },
+              "date": {
+                "width": 116
+              }
+            },
+            "orderFields": [
+              "name",
+              "date",
+              "published",
+              "status",
+              "tags",
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "bd430e25-72ba-41ef-8582-524f3def3355",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "f1cccde8-1865-43b2-8f57-089eb79dcd3e",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "priorityField": "date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4aaab3b3-098f-410c-8c60-108bc6b47663",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "name": "YouTutbe_Delvogs",
+      "id": "9592573c-4060-4c32-809c-2cff9815af95"
+    },
+    {
+      "fieldConfig": {
+        "tags": {},
+        "date": {
+          "options": []
+        },
+        "published": {},
+        "Status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        },
+        "youtube": {
+          "richText": true
+        },
+        "status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "YouTube/Godot Tip a Day",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "7c49544a-7f03-44ea-86d2-663889f793d6",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 158
+              },
+              "Status": {
+                "width": 119
+              },
+              "name": {
+                "width": 292,
+                "hide": true
+              },
+              "cover": {
+                "hide": true
+              },
+              "youtube": {
+                "width": 381
+              },
+              "title": {
+                "width": 340
+              },
+              "published": {
+                "width": 137
+              },
+              "date": {
+                "width": 100
+              }
+            },
+            "orderFields": [
+              "title",
+              "date",
+              "published",
+              "status",
+              "tags",
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "81ce9ead-c342-451b-a792-a0964bbb1a2f",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "aa584e1e-2aa5-457c-a481-7ee6e49dac5f",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "priorityField": "date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "1afd0113-5c12-4e09-8029-08d87365737b",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "name": "GodotGems",
+      "id": "87b35b27-845c-4bdb-9077-7b42931eadca"
+    }
+  ],
+  "archives": [],
+  "preferences": {
+    "projectSizeLimit": 1000,
+    "frontmatter": {
+      "quoteStrings": "PLAIN"
+    },
+    "commands": [],
+    "linkBehavior": "open-editor"
+  }
+}

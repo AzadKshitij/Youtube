@@ -1,0 +1,47 @@
+{
+  "callouts": {
+    "custom": [
+      "rejected",
+      "accept"
+    ],
+    "settings": {
+      "rejected": [
+        {
+          "changes": {
+            "icon": "lucide-x-octagon"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "light"
+          },
+          "changes": {
+            "color": "255, 26, 26"
+          }
+        },
+        {
+          "condition": {
+            "colorScheme": "dark"
+          },
+          "changes": {
+            "color": "253, 63, 63"
+          }
+        }
+      ],
+      "accept": [
+        {
+          "changes": {
+            "icon": "lucide-check",
+            "color": "77, 255, 97"
+          }
+        }
+      ]
+    }
+  },
+  "calloutDetection": {
+    "obsidianFallbackForced": false,
+    "obsidian": true,
+    "theme": true,
+    "snippet": true
+  }
+}

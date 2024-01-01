@@ -1,0 +1,214 @@
+{
+  "choices": [
+    {
+      "id": "f7669b78-b374-4cc8-b9e1-8f102e9387c6",
+      "name": "Add Blog Post",
+      "type": "Macro",
+      "command": true,
+      "macroId": "6a6b3de0-c169-4e0b-8acf-2b75c50f6e43"
+    },
+    {
+      "id": "c17771ce-87f3-4b86-9093-3c7fed11ec8f",
+      "name": "Add Youtube Video",
+      "type": "Macro",
+      "command": true,
+      "macroId": "3e86c0f3-2f9c-4903-b234-ce4b45b86eaf"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Add Post",
+      "id": "6a6b3de0-c169-4e0b-8acf-2b75c50f6e43",
+      "commands": [
+        {
+          "name": "Create Blog Post",
+          "type": "NestedChoice",
+          "id": "90437fca-ec87-41b5-8fde-2b68556e23e7",
+          "choice": {
+            "id": "5464b78d-d50b-4cd9-9e95-7064e27be864",
+            "name": "Create Blog Post",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_templates/blog_post_template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:Name}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Data Science",
+                "ML",
+                "Productivity"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
+          }
+        },
+        {
+          "name": "Wait",
+          "type": "Wait",
+          "id": "fa1516df-36c4-4335-89c6-2fef3452280f",
+          "time": 200
+        },
+        {
+          "name": "Send to Kanban Board",
+          "type": "NestedChoice",
+          "id": "646afad5-a9dd-466c-8b6d-1bcde3bbccd2",
+          "choice": {
+            "id": "cb68da92-1aa3-4dc3-8dc2-a5255918d810",
+            "name": "Send to Kanban Board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Blog Kanban DashBoard.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "[[{{VALUE:Name}}|{{VALUE:Name}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## {{VALUE:Idea,Write,Writing,Scheduled,Published}}",
+              "insertAtEnd": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    },
+    {
+      "name": "youtube",
+      "id": "3e86c0f3-2f9c-4903-b234-ce4b45b86eaf",
+      "commands": [
+        {
+          "name": "YoutubeTemplate",
+          "type": "NestedChoice",
+          "id": "b9252ccb-b794-4f7d-853a-e96556a1ed50",
+          "choice": {
+            "id": "945d8425-be64-4586-940a-81b5b1a49ec7",
+            "name": "YoutubeTemplate",
+            "type": "Template",
+            "command": false,
+            "templatePath": "_templates/_Youtube Video.md",
+            "fileNameFormat": {
+              "enabled": false,
+              "format": ""
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "YouTube/2MVideos",
+                "YouTube/Shorts",
+                "YouTube/100DaysOfProduct",
+                "YouTube/Data Science 101",
+                "YouTube/CyberGolf",
+                "YouTube/Godot Tip a Day"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "setFileExistsBehavior": true,
+            "fileExistsMode": "Increment the file name"
+          }
+        },
+        {
+          "name": "Capture Note to Kanban Board",
+          "type": "NestedChoice",
+          "id": "b41c32a8-b69f-465d-a879-b8aeb62c0f71",
+          "choice": {
+            "id": "75a46130-44fa-453a-89e8-31236f27bfa1",
+            "name": "Capture Note to Kanban Board",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "YouTube/YouTube Video List.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": false,
+              "format": ""
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## All Ideas",
+              "insertAtEnd": true,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": true,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
+  "inputPrompt": "single-line",
+  "devMode": false,
+  "templateFolderPath": "_templates",
+  "announceUpdates": true,
+  "version": "1.6.1",
+  "disableOnlineFeatures": true,
+  "ai": {
+    "OpenAIApiKey": "",
+    "defaultModel": "Ask me",
+    "defaultSystemPrompt": "As an AI assistant within Obsidian, your primary goal is to help users manage their ideas and knowledge more effectively. Format your responses using Markdown syntax. Please use the [[Obsidian]] link format. You can write aliases for the links by writing [[Obsidian|the alias after the pipe symbol]]. To use mathematical notation, use LaTeX syntax. LaTeX syntax for larger equations should be on separate lines, surrounded with double dollar signs ($$). You can also inline math expressions by wrapping it in $ symbols. For example, use $$w_{ij}^{\text{new}}:=w_{ij}^{\text{current}}+etacdotdelta_jcdot x_{ij}$$ on a separate line, but you can write \"($eta$ = learning rate, $delta_j$ = error term, $x_{ij}$ = input)\" inline.",
+    "promptTemplatesFolderPath": "",
+    "showAssistant": true
+  },
+  "migrations": {
+    "migrateToMacroIDFromEmbeddedMacro": true,
+    "useQuickAddTemplateFolder": true,
+    "incrementFileNameSettingMoveToDefaultBehavior": true,
+    "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
+    "setVersionAfterUpdateModalRelease": true
+  }
+}

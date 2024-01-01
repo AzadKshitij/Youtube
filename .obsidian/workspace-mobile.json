@@ -1,0 +1,127 @@
+{
+  "main": {
+    "id": "f64bfd87fde43f55",
+    "type": "split",
+    "children": [
+      {
+        "id": "aecb9bf146a9e831",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "87afa4df52748381",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YouTube/Data Science 101/1. Data collection.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ae385d2741211682",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "982ba2845400f143",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "5534b81e0d38e18b",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "4ada79cb10815c9a",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "eba14da6c653822c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "c9850e8807475a1e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "ba1cdaa8eda0a376",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "YouTube/Data Science 101/1. Data collection.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "c4c91c0145fd2265",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "YouTube/Data Science 101/1. Data collection.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "2dfeb4a03ba3a70c",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "YouTube/Data Science 101/1. Data collection.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "87afa4df52748381",
+  "lastOpenFiles": []
+}
