@@ -29,7 +29,7 @@
             "name": "Create Blog Post",
             "type": "Template",
             "command": false,
-            "templatePath": "_templates/blog_post_template.md",
+            "templatePath": "_templates/_blog_post_template.md",
             "fileNameFormat": {
               "enabled": true,
               "format": "{{VALUE:Name}}"
@@ -72,7 +72,7 @@
             "type": "Capture",
             "command": false,
             "appendLink": false,
-            "captureTo": "Blog Kanban DashBoard.md",
+            "captureTo": "Blog Kanban Dash Board.md",
             "captureToActiveFile": false,
             "createFileIfItDoesntExist": {
               "enabled": false,

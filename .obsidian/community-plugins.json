@@ -1,10 +1,8 @@
 [
   "obsidian-dictionary-plugin",
-  "cm-editor-syntax-highlight-obsidian",
   "various-complements",
   "omnisearch",
   "url-into-selection",
-  "remotely-save",
   "obsidian-code-block-enhancer",
   "oz-clear-unused-images",
   "quickadd",
@@ -13,7 +11,6 @@
   "dataview",
   "obsidian-kanban",
   "metaedit",
-  "table-editor-obsidian",
   "settings-search",
   "obsidian-plugin-update-tracker",
   "cmdr",
@@ -31,5 +28,6 @@
   "home-tab",
   "homepage",
   "obsidian-excalidraw-plugin",
-  "obsidian-git"
+  "obsidian-git",
+  "css-snippets"
 ]

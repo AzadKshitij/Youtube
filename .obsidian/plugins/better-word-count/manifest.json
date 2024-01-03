@@ -5,5 +5,5 @@
   "description": "Counts the words of selected text in the editor.",
   "author": "Luke Leppan",
   "authorUrl": "https://lukeleppan.com",
-  "isDesktopOnly": false
+  "isDesktopOnly": true
 }

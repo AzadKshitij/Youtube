@@ -5,6 +5,8 @@ kanban-plugin: basic
 ---
 
 ## Ideas
+- [ ] [[lolcheck|lolcheck]]
+- [ ] [[Check|Check]]
 
 - [ ] [[Data Science/8. _Tools as a data science student]]
 
