@@ -10,6 +10,7 @@ kanban-plugin: basic
 - [ ] [[7. Playerprefs Addon]]
 - [ ] [[8. Panel Style]]
 - [ ] [[10. Orchestrator - Viisual Scripting for Godot]]
+- [ ] [[1. Get better everyday]]
 
 
 ## In progress

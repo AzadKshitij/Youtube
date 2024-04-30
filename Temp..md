@@ -4,6 +4,13 @@ Bro Paper **30 March** ko submit karna hai.
 - Make sure to name the pdf same as the paper name. 
 - We will combine all the papers written by each one of us after the exam is over around 26 Mar.
 
+# Techstack
+- Django
+- django-unfold
+- Postgrese 
+
+Tasks for you. 
+
 GLHF
 
 - Things 3
