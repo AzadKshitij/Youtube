@@ -4,11 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "64144f2034c89b13",
+        "id": "189f2465ef72d60f",
         "type": "tabs",
         "children": [
           {
-            "id": "5f830d33a1d9a4e5",
+            "id": "d81109092f68a405",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "obsidian-projects",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "8f5f2bcfd9909a1e",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -17,14 +27,6 @@
                 "file": "YouTube/YouTube Video List.md"
               },
               "pinned": true
-            }
-          },
-          {
-            "id": "bb65f0b5717b19e7",
-            "type": "leaf",
-            "state": {
-              "type": "swar8080/AVAILABLE_PLUGIN_UPDATES",
-              "state": {}
             }
           }
         ],
@@ -211,21 +213,37 @@
       "oz-clear-unused-images:Clear Unused Images": false,
       "dbfolder:Create a new database table": false,
       "homepage:Open homepage": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-projects:Open projects": false,
       "omnisearch:Omnisearch": false,
+      "obsidian-projects:Open projects": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "bb65f0b5717b19e7",
+  "active": "8f5f2bcfd9909a1e",
   "lastOpenFiles": [
+    "Productivity/1. Get better everyday.md",
+    "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
     "YouTube/YouTube Video List.md",
-    "Productivity/assets/1. Get better everyday/20240427_175937.heic",
+    "Productivity/assets/1. Get better everyday/image-2. -233759360.png",
     "Productivity/assets/1. Get better everyday/image-1. Get better everyday-001803646.png",
+    "Productivity/assets/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies",
+    "Productivity/2..md",
+    "Books/Data Science from Scratch.pdf",
+    "YouTube/Presentation Resources.md",
+    "YouTube/Ideas Own.md",
+    "YouTube/Ideas ChatGPT.md",
+    "YouTube/Basic Information.md",
+    "YouTube/Youtube Manager.md",
+    "YouTube/Series Ideas.md",
+    "Temp..md",
+    "Starting Point.md",
+    "Satyam Temp.md",
+    "Description.md",
+    "Flats.md",
+    "Productivity/assets/1. Get better everyday/20240427_175937.heic",
     "Productivity/assets/1. Get better everyday",
     "Productivity/assets",
     "Productivity/Get better every day.md",
-    "Productivity/1. Get better everyday.md",
     "YouTube/Godot Tip a Day/10. Orchestrator - Viisual Scripting for Godot.md",
     "Productivity/Successful Time Management.md",
     "Data Science/1. Setup Visual Studio Code for Data Science with Python.md",
@@ -234,37 +252,21 @@
     "Data Science/0. Project Structure for Data Science.md",
     "_templates/_blog_post_template.md",
     "Data Science/lolcheck.md",
-    "Temp..md",
     "Data Science/Check.md",
     "Blog Kanban Dash Board.md",
     "Data Science/2. Better plots for Data Science.md",
-    "_templates/_daily_note.md",
-    "css-snippets/Untitled.md",
     "css-snippets/timeline.css",
     "css-snippets/New Text Document.txt",
     "css-snippets",
-    "Daily/2024-01-01.md",
-    "Description.md",
-    "Flats.md",
-    "Satyam Temp.md",
-    "Starting Point.md",
     "Daily",
-    "2024-01-01.md",
-    "2023-09-23.md",
     "Data Science/assets/0. Project Structure for Data Science/image-0. Project Structure for Data Science-215833076.png",
     "Data Science/assets/0. Project Structure for Data Science",
     "Untitled.canvas",
-    "Untitled.md",
-    "YouTube/Godot Tip a Day/9. Call Down Signal Up.md",
-    "YouTube/CyberGolf/Flow/Reference.md",
     "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013224838_011.png",
     "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013223945_015.png",
     "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013222330_860.png",
-    "Excalidraw/Libs/it-icons.excalidrawlib",
-    "Excalidraw/Libs/it-icons.excalidrawlib.fdmdownload",
     "Excalidraw/Scripts/Downloaded/BoxSelectedElements/Box Selected Elements.svg",
     "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013220708_677.png",
-    "Figures/3. What is %%timeit in python 2023-01-11 16.29.45.excalidraw.png",
     "SVG_SAAS.canvas",
     "Exam Study TIme Table.canvas"
   ]

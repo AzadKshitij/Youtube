@@ -10,7 +10,6 @@ kanban-plugin: basic
 - [ ] [[7. Playerprefs Addon]]
 - [ ] [[8. Panel Style]]
 - [ ] [[10. Orchestrator - Viisual Scripting for Godot]]
-- [ ] [[1. Get better everyday]]
 
 
 ## In progress
@@ -21,10 +20,12 @@ kanban-plugin: basic
 
 ## Today work
 
+- [ ] [[2. Crush Procrastination with These 6 'Eat That Frog!' Strategies]]
 
 
 ## Scheduled
 
+- [ ] [[1. Get better everyday]]
 
 
 ## Published
@@ -39,7 +40,11 @@ kanban-plugin: basic
 - [x] [[2. Create Image Compression app with Streamlit.]]
 
 
+***
 
+## Archive
+
+- [ ] [[2. ]]
 
 %% kanban:settings
 ```

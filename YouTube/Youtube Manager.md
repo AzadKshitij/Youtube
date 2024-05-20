@@ -71,6 +71,7 @@ columns:
       - { label: "DS101", value: "DS101", color: "hsl(20, 95%, 90%)"}
       - { label: "shorts", value: "shorts", color: "hsl(300, 95%, 90%)"}
       - { label: "devlog", value: "devlog", color: "hsl(120, 95%, 90%)"}
+      - { label: "excalidraw", value: "excalidraw", color: "hsl(160, 95%, 90%)"}
     config:
       enable_media_view: true
       link_alias_enabled: true

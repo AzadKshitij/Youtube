@@ -969,6 +969,176 @@
       ],
       "name": "GodotGems",
       "id": "87b35b27-845c-4bdb-9077-7b42931eadca"
+    },
+    {
+      "fieldConfig": {
+        "tags": {},
+        "date": {
+          "options": []
+        },
+        "published": {},
+        "Status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        },
+        "youtube": {
+          "richText": true
+        },
+        "status": {
+          "options": [
+            "Done",
+            "Idea",
+            "Doing"
+          ]
+        }
+      },
+      "defaultName": "",
+      "templates": [
+        "_templates/Youtube Video.md"
+      ],
+      "excludedNotes": [],
+      "isDefault": false,
+      "dataSource": {
+        "kind": "folder",
+        "config": {
+          "path": "Productivity",
+          "recursive": true
+        }
+      },
+      "newNotesFolder": "",
+      "views": [
+        {
+          "config": {
+            "coverField": "cover",
+            "fitStyle": "contain",
+            "includeFields": [
+              "youtube"
+            ]
+          },
+          "filter": {
+            "conditions": [
+              {
+                "field": "name",
+                "operator": "is-not-empty",
+                "enabled": true
+              }
+            ]
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "ac6c4371-f3c8-4fbd-8828-f17bc3285a43",
+          "name": "Gallery",
+          "type": "gallery"
+        },
+        {
+          "config": {
+            "sortField": "name",
+            "sortAsc": true,
+            "fieldConfig": {
+              "path": {
+                "hide": true
+              },
+              "tags": {
+                "width": 158
+              },
+              "Status": {
+                "width": 119
+              },
+              "name": {
+                "width": 292
+              },
+              "cover": {
+                "hide": true
+              },
+              "youtube": {
+                "width": 381
+              }
+            }
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": [
+              {
+                "color": "#a882ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Idea"
+                }
+              },
+              {
+                "color": "#00ff1e",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Done"
+                }
+              },
+              {
+                "color": "#42e0ff",
+                "condition": {
+                  "field": "status",
+                  "operator": "contains",
+                  "value": "Doing"
+                }
+              }
+            ]
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "5501a33c-28d0-4e65-83d2-dfaecf70555b",
+          "name": "Table",
+          "type": "table"
+        },
+        {
+          "config": {
+            "interval": "month",
+            "checkField": "published"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "4fd3df30-abca-4479-9807-b63c9c4860e2",
+          "name": "Calendar",
+          "type": "calendar"
+        },
+        {
+          "config": {
+            "groupByField": "Status",
+            "priorityField": "date"
+          },
+          "filter": {
+            "conditions": []
+          },
+          "colors": {
+            "conditions": []
+          },
+          "sort": {
+            "criteria": []
+          },
+          "id": "c8b214ae-18b9-41b7-a264-f1535db8d361",
+          "name": "Board",
+          "type": "board"
+        }
+      ],
+      "name": "productivity",
+      "id": "8e34a522-047c-4233-b133-bcdd986238b8"
     }
   ],
   "archives": [],
