@@ -18,7 +18,7 @@
             }
           },
           {
-            "id": "8f5f2bcfd9909a1e",
+            "id": "e88909c0e1ba4738",
             "type": "leaf",
             "pinned": true,
             "state": {
@@ -28,9 +28,22 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "c1728070d826161c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -70,6 +83,14 @@
               "type": "bookmarks",
               "state": {}
             }
+          },
+          {
+            "id": "a2f96c429ab84485",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
+              "state": {}
+            }
           }
         ]
       },
@@ -107,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "YouTube/YouTube Video List.md"
+                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md"
               }
             }
           }
@@ -150,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "YouTube/YouTube Video List.md",
+                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -167,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "YouTube/YouTube Video List.md",
+                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,7 +212,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "YouTube/YouTube Video List.md"
+                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md"
               }
             }
           }
@@ -200,7 +221,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5
+    "width": 293.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,15 +237,19 @@
       "homepage:Open homepage": false,
       "omnisearch:Omnisearch": false,
       "obsidian-projects:Open projects": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8f5f2bcfd9909a1e",
+  "active": "c1728070d826161c",
   "lastOpenFiles": [
-    "Productivity/1. Get better everyday.md",
-    "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
     "YouTube/YouTube Video List.md",
+    "Untitled.md",
+    "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+    "Productivity/1. Get better everyday.md",
+    "YouTube/Basic Information.md",
+    "Description.md",
+    "Productivity/Assets.md",
     "Productivity/assets/1. Get better everyday/image-2. -233759360.png",
     "Productivity/assets/1. Get better everyday/image-1. Get better everyday-001803646.png",
     "Productivity/assets/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies",
@@ -232,13 +258,11 @@
     "YouTube/Presentation Resources.md",
     "YouTube/Ideas Own.md",
     "YouTube/Ideas ChatGPT.md",
-    "YouTube/Basic Information.md",
     "YouTube/Youtube Manager.md",
     "YouTube/Series Ideas.md",
     "Temp..md",
     "Starting Point.md",
     "Satyam Temp.md",
-    "Description.md",
     "Flats.md",
     "Productivity/assets/1. Get better everyday/20240427_175937.heic",
     "Productivity/assets/1. Get better everyday",
@@ -254,7 +278,6 @@
     "Data Science/lolcheck.md",
     "Data Science/Check.md",
     "Blog Kanban Dash Board.md",
-    "Data Science/2. Better plots for Data Science.md",
     "css-snippets/timeline.css",
     "css-snippets/New Text Document.txt",
     "css-snippets",

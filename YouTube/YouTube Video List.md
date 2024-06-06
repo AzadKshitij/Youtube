@@ -25,12 +25,12 @@ kanban-plugin: basic
 
 ## Scheduled
 
-- [ ] [[1. Get better everyday]]
 
 
 ## Published
 
 **Complete**
+- [x] [[1. Get better everyday]]
 - [x] [[6. Print Rich]]
 - [x] [[1. Node Groups]]
 - [x] [[3. Export Category]]
