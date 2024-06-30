@@ -8,34 +8,41 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d81109092f68a405",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
-              "type": "obsidian-projects",
-              "state": {},
-              "pinned": true
-            }
-          },
-          {
-            "id": "e88909c0e1ba4738",
+            "id": "e856dde5b2b4c0fc",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "kanban",
               "state": {
-                "file": "YouTube/YouTube Video List.md"
+                "file": "YouTube/YouTube Video List.md",
+                "kanbanViewState": {
+                  "kanban-plugin": "board",
+                  "list-collapse": []
+                }
               },
               "pinned": true
             }
           },
           {
-            "id": "c1728070d826161c",
+            "id": "a768a003e98e9729",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+                "file": "YouTube/Shorts/7. 6 Principles of Creative Time Management.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "79b34120f4f880a2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "YouTube Assets.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -83,14 +90,6 @@
               "type": "bookmarks",
               "state": {}
             }
-          },
-          {
-            "id": "a2f96c429ab84485",
-            "type": "leaf",
-            "state": {
-              "type": "surfing-tab-tree",
-              "state": {}
-            }
           }
         ]
       },
@@ -128,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md"
+                "file": "YouTube Assets.md"
               }
             }
           }
@@ -171,7 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+                "file": "YouTube Assets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +187,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+                "file": "YouTube Assets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -212,8 +211,16 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md"
+                "file": "YouTube Assets.md"
               }
+            }
+          },
+          {
+            "id": "ffd8db83048409ef",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
             }
           }
         ],
@@ -221,8 +228,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 293.5,
-    "collapsed": true
+    "width": 219.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,19 +240,36 @@
       "command-palette:Open command palette": false,
       "oz-clear-unused-images:Clear Unused Images": false,
       "dbfolder:Create a new database table": false,
-      "homepage:Open homepage": false,
-      "omnisearch:Omnisearch": false,
       "obsidian-projects:Open projects": false,
+      "callout-manager:Insert Callout": false,
+      "homepage:Open homepage": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-kanban:Create new board": false,
+      "omnisearch:Omnisearch": false,
       "templater-obsidian:Templater": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-full-calendar:Open Full Calendar": false
     }
   },
-  "active": "c1728070d826161c",
+  "active": "79b34120f4f880a2",
   "lastOpenFiles": [
+    "assets/YouTube Assets/image-YouTube Assets-203804849.png",
+    "assets/YouTube Assets/image-YouTube Assets-203751728.png",
+    "assets/YouTube Assets/image-YouTube Assets-203726842.png",
+    "assets/YouTube Assets/image-YouTube Assets-203704109.png",
+    "assets/YouTube Assets/image-YouTube Assets-192727909.png",
+    "assets/YouTube Assets",
+    "YouTube/Shorts/7. 6 Principles of Creative Time Management.md",
+    "YouTube Assets.md",
     "YouTube/YouTube Video List.md",
-    "Untitled.md",
+    "Productivity/assets/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies/1s]_6.1.1.png",
+    "Untitled.canvas",
     "Productivity/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies.md",
+    "Productivity/assets/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies/Episode 1_ Data Cleaning_1.5 (2).png",
+    "Productivity/assets/2. Crush Procrastination with These 6 'Eat That Frog!' Strategies/Crush Procrastination with These 6 'Eat That Frog!' Strategies_1.5.png",
     "Productivity/1. Get better everyday.md",
+    "Blog Kanban Dash Board.md",
+    "Untitled.md",
     "YouTube/Basic Information.md",
     "Description.md",
     "Productivity/Assets.md",
@@ -272,24 +295,11 @@
     "Productivity/Successful Time Management.md",
     "Data Science/1. Setup Visual Studio Code for Data Science with Python.md",
     "assets/Pasted image 20221018222644.png",
-    "assets/Pasted image 20221018221252.png",
     "Data Science/0. Project Structure for Data Science.md",
-    "_templates/_blog_post_template.md",
-    "Data Science/lolcheck.md",
-    "Data Science/Check.md",
-    "Blog Kanban Dash Board.md",
     "css-snippets/timeline.css",
     "css-snippets/New Text Document.txt",
     "css-snippets",
     "Daily",
-    "Data Science/assets/0. Project Structure for Data Science/image-0. Project Structure for Data Science-215833076.png",
-    "Data Science/assets/0. Project Structure for Data Science",
-    "Untitled.canvas",
-    "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013224838_011.png",
-    "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013223945_015.png",
-    "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013222330_860.png",
-    "Excalidraw/Scripts/Downloaded/BoxSelectedElements/Box Selected Elements.svg",
-    "YouTube/CyberGolf/Flow/assets/Main/Pasted Image 20231013220708_677.png",
     "SVG_SAAS.canvas",
     "Exam Study TIme Table.canvas"
   ]

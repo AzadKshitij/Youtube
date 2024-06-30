@@ -1,6 +1,6 @@
 ---
 
-kanban-plugin: basic
+kanban-plugin: board
 
 ---
 
@@ -20,11 +20,11 @@ kanban-plugin: basic
 
 ## Today work
 
-- [ ] [[2. Crush Procrastination with These 6 'Eat That Frog!' Strategies]]
 
 
 ## Scheduled
 
+- [ ] [[2. Crush Procrastination with These 6 'Eat That Frog!' Strategies]]
 
 
 ## Published
@@ -48,6 +48,6 @@ kanban-plugin: basic
 
 %% kanban:settings
 ```
-{"kanban-plugin":"basic"}
+{"kanban-plugin":"board"}
 ```
 %%
